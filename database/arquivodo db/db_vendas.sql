@@ -1,7 +1,7 @@
 -- --------------------------------------------------------
 -- Servidor:                     localhost
 -- Versão do servidor:           5.7.24 - MySQL Community Server (GPL)
--- OS do Servidor:               Win32
+-- OS do Servidor:               Win64
 -- HeidiSQL Versão:              10.2.0.5599
 -- --------------------------------------------------------
 
@@ -24,15 +24,15 @@ CREATE TABLE IF NOT EXISTS `categorias` (
   `created_at` timestamp NULL DEFAULT NULL,
   `updated_at` timestamp NULL DEFAULT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=5 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=7 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
 -- Copiando dados para a tabela vendas.categorias: ~4 rows (aproximadamente)
 /*!40000 ALTER TABLE `categorias` DISABLE KEYS */;
 INSERT INTO `categorias` (`id`, `nome`, `created_at`, `updated_at`) VALUES
 	(1, 'Eletrônicos', '2019-12-05 14:17:21', '2019-12-05 14:17:21'),
 	(2, 'Informática', '2019-12-05 21:28:01', '2019-12-05 21:28:01'),
-	(3, 'Alimentos', '2019-12-05 21:28:54', '2019-12-05 21:28:54'),
-	(4, 'Carros', '2019-12-05 21:32:55', '2019-12-05 21:32:55');
+	(5, 'Alimentos finos', '2019-12-06 04:50:06', '2019-12-06 05:07:26'),
+	(6, 'Carros Eletricos', '2019-12-06 04:50:15', '2019-12-06 05:07:03');
 /*!40000 ALTER TABLE `categorias` ENABLE KEYS */;
 
 -- Copiando estrutura para tabela vendas.migrations
